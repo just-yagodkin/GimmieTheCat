@@ -129,5 +129,16 @@ def save_image(
     im.save(fp, format=format)
 
 def denorm(img_tensors):
-    # hardcode numbers
+    '''Some hardcode numbers'''
     return img_tensors * 0.5 + 0.5
+
+def read_token(file_path):
+    '''Parsing function for token'''
+    try:
+        with open(file_path, 'r') as file:
+            file_content = file.read()
+    except FileNotFoundError:
+        print(f"Can't see {file_path}. Set variable to None.")
+        file_content = None
+
+    return file_content

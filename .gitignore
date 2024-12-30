@@ -1,3 +1,4 @@
 pics/*.png
+token.txt
 
 src/__pycache__/*
