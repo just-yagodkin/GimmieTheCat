@@ -11,4 +11,4 @@ Just install requirements and run `src/main.py` from the body's project
 
 ---
 
-#### Have an idea? Write on [telegram!](https://t.me/imfli)
+#### Have an idea? Write on [telegram](https://t.me/imfli)!
